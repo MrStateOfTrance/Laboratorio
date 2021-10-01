@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             BackgroundColor="Black"
+             x:Class="Laboratorio.MainPage">
+
+    <StackLayout HorizontalOptions="Center" BackgroundColor="Black" WidthRequest="280" >
+        <Frame BackgroundColor="Black" CornerRadius="0">
+            <Label Text="Convertidor De Temperaturas" HorizontalTextAlignment="Center" TextColor="Cyan" FontSize="32" Padding="10,35,10,35"/>
+        </Frame>
+
+
+        <Label Text="Convertir °F a °C" HorizontalTextAlignment="Center" TextColor="Aquamarine" FontSize="28" Padding="10,35,10,35" />
+        <Label Text="Convertir °C a °F" HorizontalTextAlignment="Center" TextColor="Aquamarine" FontSize="28" Padding="10,35,10,35" />
+        <Button x:Name="BotonConvertirFaC" Clicked="BotonConvertirFaC_Clicked" Text="Convertir"  FontSize="20" FontAttributes="Bold" HeightRequest="100" BackgroundColor="Orange"/>
+        
+      
+
+
+
+
+
+
+    </StackLayout>
+
+</ContentPage>

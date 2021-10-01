@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage 
+    xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Laboratorio.Resultado">
+    <ContentPage.Content>
+        <StackLayout HorizontalOptions="Center" BackgroundColor="Black" WidthRequest="280" >
+            <Frame BackgroundColor="Black" CornerRadius="0">
+                <Label  Text="Convertir °F a °C" HorizontalTextAlignment="Center" TextColor="Cyan" FontSize="20" Padding="10,35,10,35"/>
+            </Frame>
+
+            <Label x:Name="EntradaFahrenheit" Text="Introduce los grados °F" HorizontalTextAlignment="Center" TextColor="GhostWhite"></Label>
+            <Entry x:Name="ValorFahren" Placeholder="20" VerticalOptions="Center" BackgroundColor="LightGreen" TextColor="Black" FontSize="18" ></Entry>
+            <Label x:Name="ResultadoFaC" HorizontalTextAlignment="Center" FontSize="24" BackgroundColor="RED"></Label>
+            <Button x:Name="btnCalcularfac" Text="Calcular" Clicked="btnCalcularfac_Clicked" BackgroundColor="Orange"></Button>
+
+
+            <Frame BackgroundColor="Black" CornerRadius="0">
+                <Label  Text="Convertir °C a °F" HorizontalTextAlignment="Center" TextColor="Cyan" FontSize="20" Padding="10,35,10,35"/>
+            </Frame>
+
+            <Label x:Name="EntradaCentigrados" Text="Introduce los grados °C" HorizontalTextAlignment="Center" TextColor="GhostWhite"></Label>
+            <Entry x:Name="ValorCentig" Placeholder="20" VerticalOptions="Center" BackgroundColor="LightGreen" TextColor="Black" FontSize="18" ></Entry>
+            <Label x:Name="ResultadoCaF" HorizontalTextAlignment="Center" FontSize="24" BackgroundColor="RED"></Label>
+            <Button x:Name="btnCalcularcaf" Text="Calcular" Clicked="btnCalcularcaf_Clicked" BackgroundColor="Orange"></Button>
+
+
+
+
+
+
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
